@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sbdma_training_app *.css
+recursive-include sbdma_training_app *.csv
+recursive-include sbdma_training_app *.html
+recursive-include sbdma_training_app *.ico
+recursive-include sbdma_training_app *.js
+recursive-include sbdma_training_app *.json
+recursive-include sbdma_training_app *.md
+recursive-include sbdma_training_app *.png
+recursive-include sbdma_training_app *.py
+recursive-include sbdma_training_app *.svg
+recursive-include sbdma_training_app *.txt
+recursive-exclude sbdma_training_app *.pyc
